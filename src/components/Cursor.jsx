@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 
 const Cursor = ({ scaling }) => {
 
-    const [outterCircle, setoutterCircle] = useState({ x: 0, y: 0 });
-    const [innerCircle, setinnerCircle] = useState({ x: 0, y: 0 });
+    const [outterCircle, setoutterCircle] = useState({ x: -45, y: -45 });
+    const [innerCircle, setinnerCircle] = useState({ x: -45, y: -45 });
 
     useEffect(() => {
         const mousemove = (e) => {
