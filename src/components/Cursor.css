@@ -1,0 +1,15 @@
+.outer_circle,
+.inner_circle {
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  pointer-events: none;
+  transition: transform 0.1s;
+  border-radius: 50%;
+  border: 1.4px solid #929292;
+}
+.inner_circle {
+  width: 5px;
+  height: 5px;
+  background-color: #929292;
+}

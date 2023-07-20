@@ -1,12 +1,12 @@
-
-import Navbar from './components/Navbar';
+import Cursor from "./components/Cursor";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <Cursor />
       <Navbar />
-
-    </div>
+    </>
   );
 }
 
