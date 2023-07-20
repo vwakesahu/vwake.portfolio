@@ -28,7 +28,8 @@ const Cursor = ({ scaling }) => {
                 animate={{
                     x: innerCircle.x,
                     y: innerCircle.y,
-                    transition: { type: "spring", mass: 1 },
+                    transition: { type: "spring", stiffness:10000, mass: 0.001 },
+
                 }} 
                 className='outer_circle'
                 >
@@ -37,7 +38,7 @@ const Cursor = ({ scaling }) => {
                 animate={{
                     x: outterCircle.x,
                     y: outterCircle.y,
-                    transition: { type: "spring", mass: 0.2 },
+                    transition: { type: "spring", stiffness:300, mass: 0.07 },
                 }} 
                 className='inner_circle absolute '   
                 style={{ scale: scaling ? 0.1 : 1 }}>
