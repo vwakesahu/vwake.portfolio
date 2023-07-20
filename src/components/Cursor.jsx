@@ -22,7 +22,7 @@ const Cursor = ({ scaling }) => {
 
 
     return (
-        <div className='bg-transparent md:flex absolute items-center justify-center'>
+        <div className='hidden bg-transparent md:flex absolute items-center justify-center'>
             
             <motion.div
                 animate={{
