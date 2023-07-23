@@ -1,12 +1,12 @@
 import Cursor from "./components/Cursor";
-import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
-    <>
+    <div className="h-screen bg-darkBgColor">
+      <HeroSection />
       <Cursor />
-      <Navbar />
-    </>
+    </div>
   );
 }
 
