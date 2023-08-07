@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+      },
       width: {
         150: "150px",
         190: "190px",
@@ -51,10 +54,15 @@ module.exports = {
       },
       colors: {
         darkBgColor: "rgb(4,12,20)",
-        lightModeTextColor: "#000000",
-        lighttextGray: "#929292",
-        lightPrimary: "#0D1BCF",
-        lightCard: "#FFFFFF",
+        purpleColor: "#725BFF",
+        yellowColor:'#EDEAB8',
+        darkGrey: "#232228",
+        lightGrey: "#27262C",
+        whiteColor: "#FFFFFF",
+        accYellow: "#FFF1A9",
+        accPurple: "#C39EFF",
+        accBlue: "#7AB2FE",
+        accRed: "#EFA68F",
         footerSubtitle: 'rgba(255, 255, 255, 0.55)',
         lightBgBlue: 'rgba(13, 27, 207, 0.05)',
       },

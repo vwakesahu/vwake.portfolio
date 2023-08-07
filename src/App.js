@@ -1,12 +1,14 @@
 import Cursor from "./components/Cursor";
-import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
-    <>
-      <Cursor />
-      <Navbar />
-    </>
+    <div className="h-screen">
+      {/* <Cursor /> */}
+      <div className="p-16">
+        <HeroSection />
+      </div>
+    </div>
   );
 }
 
