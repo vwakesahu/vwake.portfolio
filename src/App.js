@@ -3,8 +3,8 @@ import HeroSection from "./components/HeroSection";
 
 function App() {
   return (
-    <div className="h-screen bg-darkBgColor">
-      <Cursor />
+    <div className="h-screen">
+      {/* <Cursor /> */}
       <div className="p-16">
         <HeroSection />
       </div>

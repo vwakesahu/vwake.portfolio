@@ -2,12 +2,9 @@ import React from 'react'
 
 const HeroSection = () => {
     return (
-        <div className='text-white flex items-center justify-center h-screen leading-none'>
-            <div className='flex flex-col text-[4.5rem] font-extrabold items-center'>
-                <p>VIVEK</p>
-                <p>SAHU</p>
-                <p className='text-sm w-340 text-center mt-7'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not</p>
-            </div>
+        <div className=''>
+            <p className='text-[5rem]'>Hi! My Name is <span className=' bg-yellowColor text-lightGrey font-semibold'>Vwakee</span> </p>
+            <p className='text-[3rem]'>I speak in <span className='font-outline-1 text-whiteColor hover:bg-accYellow hover:text-black cursor-none'>HTML</span>, <span className='font-outline-1 text-whiteColor hover:bg-accPurple hover:text-black cursor-none'>CSS</span>, <span className='font-outline-1 text-whiteColor hover:bg-accRed hover:text-black cursor-none'>ReactJs</span> &  <span className='font-outline-1 text-whiteColor hover:bg-accBlue hover:text-black cursor-none'>Firebase</span></p>
         </div>
     )
 }
