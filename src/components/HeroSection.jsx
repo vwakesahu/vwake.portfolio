@@ -19,7 +19,7 @@ const HeroSection = () => {
           Vwakee
         </span>{" "}
       </p>
-      <p className="md:text-[3rem] text-[1.5rem] mt-6 md:mt-0">
+      <p className="md:text-[3rem] text-[1.8rem] mt-6 md:mt-0">
         I speak in{" "}
         <motion.span
           className="font-outline-1 text-whiteColor cursor-pointer"
@@ -28,7 +28,6 @@ const HeroSection = () => {
           variants={languageVariants}
           transition={{ delay: 0.2 }}
           whileHover="hover"
-          custom="blue" // Change this to the desired color
         >
           <motion.span variants={hoverVariants}>HTML</motion.span>
         </motion.span>
@@ -40,7 +39,6 @@ const HeroSection = () => {
           variants={languageVariants}
           transition={{ delay: 0.4 }}
           whileHover="hover"
-          custom="green" // Change this to the desired color
         >
           <motion.span variants={hoverVariants}>CSS</motion.span>
         </motion.span>
@@ -52,7 +50,6 @@ const HeroSection = () => {
           variants={languageVariants}
           transition={{ delay: 0.6 }}
           whileHover="hover"
-          custom="red" // Change this to the desired color
         >
           <motion.span variants={hoverVariants}>ReactJs</motion.span>
         </motion.span>{" "}
@@ -64,7 +61,6 @@ const HeroSection = () => {
           variants={languageVariants}
           transition={{ delay: 0.8 }}
           whileHover="hover"
-          custom="purple" // Change this to the desired color
         >
           <motion.span variants={hoverVariants}>Firebase</motion.span>
         </motion.span>
