@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="h-screen">
       <Cursor />
-      <div className="p-16">
+      <div className="md:p-16 p-8">
         <HeroSection />
       </div>
     </div>
