@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Typewriter } from "react-simple-typewriter";
 
 const languageVariants = {
   hidden: { x: -100, color: "white", backgroundColor: "transparent" },
@@ -16,6 +17,15 @@ const HeroSection = () => {
       <p className=" text-[3rem] md:text-[5rem] leading-tight md:leading-normal">
         Hi! My Name is{" "}
         <span className="bg-yellowColor text-lightGrey font-semibold">
+          {/* <Typewriter
+            words={['Eat', 'Sleep', 'Code', 'Repeat!']}
+            loop={5}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          /> */}
           Vwakee
         </span>{" "}
       </p>
@@ -64,7 +74,21 @@ const HeroSection = () => {
         >
           <motion.span variants={hoverVariants}>Firebase</motion.span>
         </motion.span>
-      </p>
+        <p>
+          Generally, I{" "}
+          <span className="bg-accBlue text-lightGrey font-semibold">
+            <Typewriter
+              words={["Eat", "Sleep", "Code", "&", "Repeat!"]}
+              loop={0}
+              cursor
+              cursorStyle="_"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
+          </span>
+        </p>
+      </p> 
     </div>
   );
 };
