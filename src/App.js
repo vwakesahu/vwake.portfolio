@@ -9,8 +9,8 @@ function App() {
       <Cursor />
       <div className="md:p-16 p-8">
         <HeroSection />
-        {/* <WebCards />
-        <AppCards /> */}
+        <WebCards />
+        <AppCards />
       </div>
     </div>
   );
