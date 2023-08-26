@@ -8,7 +8,7 @@ function App() {
       <Cursor />
       <div className="md:p-16 p-8">
         <HeroSection />
-        < Cards />
+        {/* < Cards /> */}
       </div>
     </div>
   );
