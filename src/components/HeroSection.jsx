@@ -13,7 +13,7 @@ const hoverVariants = {
 
 const HeroSection = () => {
   return (
-    <div className="h-screen flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center">
        <motion.div
       className="flex flex-col items-center justify-center h-510 md:h-685 pb-40 md:pb-0"
       initial={{ opacity: 0 }} // Initial opacity
