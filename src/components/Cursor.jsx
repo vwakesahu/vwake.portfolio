@@ -20,14 +20,14 @@ const Cursor = ({ scaling }) => {
 
   return (
     <div className='hidden bg-transparent md:flex absolute items-center justify-center'>
-      <motion.div
+      {/* <motion.div
         animate={{
           x: innerCircle.x,
           y: innerCircle.y,
           transition: { type: 'spring', stiffness: 1000000, mass: 0.01 },
         }}
         className='outer_circle'
-      ></motion.div>
+      ></motion.div> */}
       <motion.div
         animate={{
           x: outerCircle.x,
