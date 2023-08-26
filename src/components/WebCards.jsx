@@ -8,6 +8,7 @@ import Cards from "./Cards";
 const WebCards = () => {
   const cardDataArray = [
     {
+      key: 1,
       imageSrc: FoodApp,
       title: "🥫 teen",
       description:
@@ -16,6 +17,7 @@ const WebCards = () => {
       bgColor: "bg-accYellow",
     },
     {
+      key: 2,
       imageSrc: JobSet,
       title: "JobSet",
       description:
@@ -24,6 +26,7 @@ const WebCards = () => {
       bgColor: "bg-accPurple",
     },
     {
+      key: 3,
       imageSrc: BullishBrains,
       title: "Bullish Brains",
       description:
@@ -32,6 +35,7 @@ const WebCards = () => {
       bgColor: "bg-accBlue",
     },
     {
+      key: 4,
       imageSrc: FramesByEngineers,
       title: "Frames By Engineers",
       description:
@@ -43,11 +47,13 @@ const WebCards = () => {
 
   return (
     <div>
-      <p className="mt-36 mb-8 text-2xl font-semibold">Web Development Projects:</p>
+      <p className="mt-36 mb-8 text-2xl font-semibold">
+        Web Development Projects:
+      </p>
       <div className=" flex md:flex-row flex-col gap-4 items-center justify-center">
-        {cardDataArray.map((cardData, index) => (
+        {cardDataArray.map((cardData, key) => (
           <Cards
-            key={index}
+            key={cardData.key}
             imageSrc={cardData.imageSrc}
             title={cardData.title}
             description={cardData.description}

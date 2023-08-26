@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
+        sans: ["Poppins", "sans-serif"],
       },
       width: {
         150: "150px",
@@ -50,12 +50,12 @@ module.exports = {
         "2xl": "1536px",
       },
       lineHeight: {
-        tight: '1.2', // Adjust the value as needed
+        tight: "1.2", // Adjust the value as needed
       },
       colors: {
         darkBgColor: "rgb(4,12,20)",
         purpleColor: "#725BFF",
-        yellowColor:'#EDEAB8',
+        yellowColor: "#EDEAB8",
         darkGrey: "#232228",
         lightGrey: "#27262C",
         whiteColor: "#FFFFFF",
@@ -63,11 +63,10 @@ module.exports = {
         accPurple: "#C39EFF",
         accBlue: "#7AB2FE",
         accRed: "#EFA68F",
-        footerSubtitle: 'rgba(255, 255, 255, 0.55)',
-        lightBgBlue: 'rgba(13, 27, 207, 0.05)',
+        footerSubtitle: "rgba(255, 255, 255, 0.55)",
+        lightBgBlue: "rgba(13, 27, 207, 0.05)",
       },
     },
   },
   plugins: [],
 };
-

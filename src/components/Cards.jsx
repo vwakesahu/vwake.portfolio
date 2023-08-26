@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cards = ({ imageSrc, title, description, buttonText, bgColor}) => {
+const Cards = ({ imageSrc, title, description, buttonText, bgColor }) => {
   return (
     <div className=" border rounded-lg md:w-[25%] p-4">
       <img src={imageSrc} className="w-full h-40 md:h-60 " alt="" />
