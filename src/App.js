@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection";
 import FoodApp from "./img/food_app.png";
 import JobSet from "./img/jobset.png"
 import BullishBrains from "./img/builish_brains.png"
+import FramesByEngineers from './img/fbe.png'
 
 function App() {
   const cardDataArray = [
@@ -32,10 +33,10 @@ function App() {
       bgColor:"bg-accBlue"
     },
     {
-      imageSrc: FoodApp,
-      title: "Canteen",
+      imageSrc: FramesByEngineers,
+      title: "Frames By Engineers",
       description:
-        "Canteen is a cutting-edge Online Food Ordering System created using ReactJS and enhanced with Tailwind CSS for seamless and appealing user interfaces. With the integration of Firebase, the platform utilizes Google authentication for a secure and user-friendly login process. The application effectively employs a Redux-powered reducer store to manage the shopping cart, ensuring a smooth and interactive experience for users as they curate and confirm their orders. By harmonizing these technologies, Canteen facilitates a streamlined user journey from browsing the menu to placing orders, contributing to an efficient and satisfying food ordering process.",
+        "In the era of digital transformation, the e-commerce industry continues to evolve, with a growing demand for innovative solutions that enhance the online shopping experience. Our project aims to address a common challenge faced by customers when purchasing custom picture frames from online retailers. The challenge revolves around the difficulty of visualizing how different frames will complement the selected photograph, leading to uncertainty and potential dissatisfaction with the final product. To tackle this issue, we propose the development of a user-friendly website that offers customers a seamless and interactive way to preview their photographs in various frames",
       buttonText: "Read Workflow",
       bgColor:"bg-accRed"
     },
