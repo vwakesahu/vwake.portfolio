@@ -3,9 +3,12 @@ import FoodApp from "../img/food_app.png";
 import JobSet from "../img/jobset.png";
 import BullishBrains from "../img/builish_brains.png";
 import FramesByEngineers from "../img/fbe.png";
+import { useNavigate } from "react-router-dom";
 import Cards from "./Cards";
 
 const WebCards = () => {
+  const navigate = useNavigate();
+
   const cardDataArray = [
     {
       key: 1,
@@ -13,8 +16,9 @@ const WebCards = () => {
       title: "🥫 teen",
       description:
         "Canteen is a cutting-edge Online Food Ordering System created using ReactJS and enhanced with Tailwind CSS for seamless and appealing user interfaces. With the integration of Firebase, the platform utilizes Google authentication for a secure and user-friendly login process. The application effectively employs a Redux-powered reducer store to manage the shopping cart, ensuring a smooth and interactive experience for users as they curate and confirm their orders. By harmonizing these technologies, Canteen facilitates a streamlined user journey from browsing the menu to placing orders, contributing to an efficient and satisfying food ordering process.",
-      buttonText: "Read Workflow",
+      buttonText: "Visit Site",
       bgColor: "bg-accYellow",
+      onClick: "https://production--canteen-system.netlify.app/",
     },
     {
       key: 2,
@@ -59,6 +63,7 @@ const WebCards = () => {
             description={cardData.description}
             buttonText={cardData.buttonText}
             bgColor={cardData.bgColor}
+            href={cardData.onClick}
           />
         ))}
       </div>

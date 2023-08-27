@@ -1,17 +1,19 @@
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import AppCards from "./components/AppCards";
 import Cursor from "./components/Cursor";
 import HeroSection from "./components/HeroSection";
 import WebCards from "./components/WebCards";
+import Homepage from "./pages/Homepage";
 
 function App() {
   return (
     <div className="h-screen">
       <Cursor />
-      <div className="md:p-16 p-8">
-        <HeroSection />
-        <WebCards />
-        <AppCards />
-      </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
