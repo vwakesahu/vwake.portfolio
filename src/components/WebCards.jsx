@@ -18,7 +18,7 @@ const WebCards = () => {
         "Canteen is a cutting-edge Online Food Ordering System created using ReactJS and enhanced with Tailwind CSS for seamless and appealing user interfaces. With the integration of Firebase, the platform utilizes Google authentication for a secure and user-friendly login process. The application effectively employs a Redux-powered reducer store to manage the shopping cart, ensuring a smooth and interactive experience for users as they curate and confirm their orders. By harmonizing these technologies, Canteen facilitates a streamlined user journey from browsing the menu to placing orders, contributing to an efficient and satisfying food ordering process.",
       buttonText: "Visit Site",
       bgColor: "bg-accYellow",
-      onClick: "https://production--canteen-system.netlify.app/",
+      onClick: "https://canteen-system.netlify.app/",
     },
     {
       key: 2,
@@ -26,8 +26,9 @@ const WebCards = () => {
       title: "JobSet",
       description:
         "During my tenure as an intern in the IBM Skillbuild program for web development, I actively participated in a collaborative project called JobSet. This project focused on creating a comprehensive web application to facilitate job-related activities. My role involved working on various key components of the application, including the Homepage, Resources section, and the Find Job feature. I employed ReactJS and Tailwind CSS, two powerful technologies, to develop these components. ReactJS enabled me to build dynamic and responsive user interfaces, while Tailwind CSS streamlined the design process and ensured a visually cohesive presentation. Through this experience, I not only refined my technical skills but also gained valuable insights into effective collaboration. By contributing to different facets of the JobSet project, I learned how to work harmoniously within a team, manage code integration, and maintain consistent coding practices. Overall, my involvement in JobSet allowed me to apply my knowledge of ReactJS and Tailwind CSS to a real-world project, while also fostering a deeper understanding of teamwork and collaborative software development.",
-      buttonText: "Read Workflow",
+      buttonText: "Visit Site",
       bgColor: "bg-accPurple",
+      onClick: "https://jobset.onrender.com/",
     },
     {
       key: 3,
@@ -44,8 +45,9 @@ const WebCards = () => {
       title: "Frames By Engineers",
       description:
         "In the era of digital transformation, the e-commerce industry continues to evolve, with a growing demand for innovative solutions that enhance the online shopping experience. Our project aims to address a common challenge faced by customers when purchasing custom picture frames from online retailers. The challenge revolves around the difficulty of visualizing how different frames will complement the selected photograph, leading to uncertainty and potential dissatisfaction with the final product. To tackle this issue, we propose the development of a user-friendly website that offers customers a seamless and interactive way to preview their photographs in various frames",
-      buttonText: "Read Workflow",
+      buttonText: "Visit Site",
       bgColor: "bg-accRed",
+      onClick: "https://framesbyeng.netlify.app/",
     },
   ];
 
