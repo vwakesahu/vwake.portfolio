@@ -1,6 +1,14 @@
 import React from "react";
 
-const Cards = ({ imageSrc, title, description, buttonText, bgColor }) => {
+const Cards = ({
+  imageSrc,
+  title,
+  description,
+  buttonText,
+  bgColor,
+  onClick,
+  href,
+}) => {
   return (
     <div className=" border rounded-lg md:w-[25%] p-4">
       <img src={imageSrc} className="w-full h-40 md:h-60 " alt="" />
@@ -10,9 +18,14 @@ const Cards = ({ imageSrc, title, description, buttonText, bgColor }) => {
           {description}
         </p>
       </div>
-      <button className={`mt-12 w-full border rounded-lg p-3 mb-3 ${bgColor}`}>
-        {buttonText}
-      </button>
+      <a href={href}>
+        <button
+          className={`mt-12 w-full border rounded-lg p-3 mb-3 ${bgColor}`}
+          onClick={onClick}
+        >
+          {buttonText}
+        </button>
+      </a>
     </div>
   );
 };
