@@ -8,9 +8,9 @@ const AppCards = () => {
       key: 1,
       imageSrc: GuideConnect,
       title: "Guide Connect",
-      description: "",
+      description: "Guide Connect is an android app made in Flutter for connecting mentors to their students. It's has simple implementation of Flutter UI and backend in flutter which can show students their schedule and mentor can change schedule anytime it will be reflected in real in student's POV. Guide Connect made connection between student and their guide more easy",
       buttonText: "Read Workflow",
-      bgColor: "",
+      bgColor: "bg-accBlue",
     },
   ];
 
