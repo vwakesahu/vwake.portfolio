@@ -18,7 +18,7 @@ const Cards = ({
           {description}
         </p>
       </div>
-      <a href={href}>
+      <a href={href} target="_blank">
         <button
           className={`mt-12 w-full border rounded-lg p-3 mb-3 ${bgColor}`}
           onClick={onClick}
