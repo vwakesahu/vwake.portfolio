@@ -19,7 +19,7 @@ const AppCards = () => {
       <p className="mt-20 mb-8 text-2xl font-semibold">
         App Development Projects:
       </p>
-      <div className=" flex md:flex-row flex-col gap-4 items-center justify-center">
+      <div className=" w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center">
         {cardDataArray.map((cardData, key) => (
           <Cards
             key={cardData.key}

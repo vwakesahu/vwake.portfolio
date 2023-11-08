@@ -10,7 +10,7 @@ const Cards = ({
   href,
 }) => {
   return (
-    <div className=" border rounded-lg md:w-[25%] p-4">
+    <div className=" border rounded-lg p-4 md:mx-2">
       <img src={imageSrc} className="w-full h-40 md:h-60 " alt="" />
       <div className="mt-6 flex flex-col">
         <p className="text-xl font-semibold">{title}</p>

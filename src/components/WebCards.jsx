@@ -25,7 +25,7 @@ const WebCards = () => {
       imageSrc: JobSet,
       title: "JobSet",
       description:
-        "During my tenure as an intern in the IBM Skillbuild program for web development, I actively participated in a collaborative project called JobSet. This project focused on creating a comprehensive web application to facilitate job-related activities. My role involved working on various key components of the application, including the Homepage, Resources section, and the Find Job feature. I employed ReactJS and Tailwind CSS, two powerful technologies, to develop these components. ReactJS enabled me to build dynamic and responsive user interfaces, while Tailwind CSS streamlined the design process and ensured a visually cohesive presentation. Through this experience, I not only refined my technical skills but also gained valuable insights into effective collaboration. By contributing to different facets of the JobSet project, I learned how to work harmoniously within a team, manage code integration, and maintain consistent coding practices. Overall, my involvement in JobSet allowed me to apply my knowledge of ReactJS and Tailwind CSS to a real-world project, while also fostering a deeper understanding of teamwork and collaborative software development.",
+          "During my tenure as an intern in the IBM Skillbuild program for web development, I actively participated in a collaborative project called JobSet. This project focused on creating a comprehensive web application to facilitate job-related activities. My role involved working on various key components of the application, including the Homepage, Resources section, and the Find Job feature. I employed ReactJS and Tailwind CSS, two powerful technologies, to develop these components. ReactJS enabled me to build dynamic and responsive user interfaces, while Tailwind CSS streamlined the design process and ensured a visually cohesive presentation. Through this experience, I not only refined my technical skills but also gained valuable insights into effective collaboration. By contributing to different facets of the JobSet project, I learned how to work harmoniously within a team, manage code integration, and maintain consistent coding practices. Overall, my involvement in JobSet allowed me to apply my knowledge of ReactJS and Tailwind CSS to a real-world project, while also fostering a deeper understanding of teamwork and collaborative software development.",
       buttonText: "Visit Site",
       bgColor: "bg-accPurple",
       onClick: "https://jobset.onrender.com/",
@@ -56,7 +56,7 @@ const WebCards = () => {
       <p className="mt-36 mb-8 text-2xl font-semibold">
         Web Development Projects:
       </p>
-      <div className=" flex md:flex-row flex-col gap-4 items-center justify-center">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center">
         {cardDataArray.map((cardData, key) => (
           <Cards
             key={cardData.key}
