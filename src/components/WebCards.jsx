@@ -56,7 +56,7 @@ const WebCards = () => {
       <p className="mt-36 mb-8 text-2xl font-semibold">
         Web Development Projects:
       </p>
-      <div className=" flex md:flex-row flex-col gap-4 items-center justify-center">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center">
         {cardDataArray.map((cardData, key) => (
           <Cards
             key={cardData.key}
