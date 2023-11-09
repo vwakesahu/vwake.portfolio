@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="">
+    <div className=" cursor-none">
       <Cursor />
 
       <Routes>
